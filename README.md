@@ -7,7 +7,7 @@
 [![PyPI](https://img.shields.io/pypi/v/compress_pickle.svg)](https://pypi.org/project/compress-pickle/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 
-The standard [pickle package](https://docs.python.org/3/library/pickle.html) provides an excellent default tool for serializing arbitrary python objects and storing them to disk. Standard python also includes broad set of [data compression packages](https://docs.python.org/3/library/archiving.html). `compress_pickle` provides an interface to the standard `pickle.dump`, `pickle.load`, `pickle.dumps` and `pickle.loads` functions, but wraps them in order to direct the serialized data through one of the standard compression packages. This way you can seemlessly serialize data to disk or to any file-like object in a compressed way.
+The standard [pickle package](https://docs.python.org/3/library/pickle.html) provides an excellent default tool for serializing arbitrary python objects and storing them to disk. Standard python also includes broad set of [data compression packages](https://docs.python.org/3/library/archiving.html). `compress_pickle` provides an interface to the standard `pickle.dump`, `pickle.load`, `pickle.dumps` and `pickle.loads` functions, but wraps them in order to direct the serialized data through one of the standard compression packages. This way you can seamlessly serialize data to disk or to any file-like object in a compressed way.
 
 `compress_pickle` supports python >= 3.6. If you must support python 3.5, install `compress_pickle==v1.1.1`.
 
@@ -23,4 +23,4 @@ Furthermore, `compress_pickle` supports the [`lz4`](https://pypi.org/project/lz4
 pip install compress_pickle[lz4]
 ```
 
-Please refer to the [package's documentation](https://lucianopaz.github.io/compress_pickle/html) for more information
+Please refer to the [package's documentation](https://lucianopaz.github.io/compress_pickle/html) for more information.
